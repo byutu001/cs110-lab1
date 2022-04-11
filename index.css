@@ -3,7 +3,7 @@ body {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   margin: 0;
   background-color: #e6ecf0;
-  font-size:12px;
+  font-size:14px;
 }
 
 #general-wrapper {
@@ -21,16 +21,18 @@ body {
 #left {
   background-color: white;
   width: 290px;
+  height: 210px;
 }
 
 #right {
   background-color: white;
   width: 290px;
+  height: 250px;
 }
 
 #main {
   background-color: white;
-  width: 100%;
+  width: 500px;
 }
 
 .container{
@@ -44,27 +46,9 @@ body {
   flex-direction: row; */
 }
 
-.username{
-  margin-left:80px;
-}
-
-.underline{
-  text-decoration: underline;
-}
 
 .regText{
   color:gray;
-}
-
-.infoTFF{
-  padding:4px;
-  font-weight:bold;
-}
-
-.infoTTFnum{
-  padding:4px;
-  font-weight:bold;
-  color: #4AB3F4;
 }
 
 
@@ -89,8 +73,8 @@ body {
 }
 .nav-link{
   color: #4AB3F4;
-  margin-left: 4px;
-  margin-right: 4px;
+  margin-left: 6px;
+  margin-right: 6px;
 }
 
 .navbar img {
@@ -127,7 +111,8 @@ padding-bottom: 3px;
 }
 
 .leftTopImage {
-  width: 150px;
+  width: 200px;
+  margin-left:30px;
 }
 
 .leftMiddle{
@@ -142,8 +127,16 @@ padding-bottom: 3px;
   border-radius: 100px;
   border: 2px solid white;
   top: 110px;
-  margin-left: 5px;
+  margin-left: 15px;
   z-index:1999;
+}
+
+.username{
+  margin-left:95px;
+}
+
+.underline{
+  text-decoration: underline;
 }
 
 .leftBottom{
@@ -156,11 +149,24 @@ padding-bottom: 3px;
   margin-left:2px;
 }
 
+.statTFFnum{
+  padding:4px;
+  font-weight:bold;
+  color: #4AB3F4;
+}
+
+.statTFF{
+  font-weight: bold;
+  color: gray;
+  margin-bottom:10px;
+}
+
+
 /* Center */
 .centerIcon{
-  border-radius: 100px;
-  width: 40px;
-  width: 40px;
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
   border: 2px solid white;
   margin: 10px;
 
@@ -189,5 +195,46 @@ padding-bottom: 3px;
   min-height: 51px;
 }
 
+
+/* Handles right-hand side */
+.toFollow{
+  font-size: 20px;
+  font-weight: bold;
+  margin-top:10px;
+  margin-left: 10px;
+}
+
+.rightUsername{
+  margin-left: 65px;
+  margin-top:-50px;
+}
+
+.rightIcon1{
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  border: 2px solid white;
+  margin: 10px;
+}
+
+.borderBotRight{
+  border-bottom: 1px solid #e6ecf0;
+  width: 270px;
+  margin-top: 15px;
+  margin-left: 10px;
+}
+
+.followButton{
+  background-color: white;
+  font-weight: bold;
+  color: #4AB3F4;
+  border-radius: 25px;
+  border: 1px solid #4AB3F4;
+  margin-top:10px;
+  padding: 5px;
+  padding-left: 15px;
+  padding-right: 15px;
+  width: 75px;
+}
 
 /* TODO: Create CSS for your Twitter Mockup */
