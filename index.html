@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html>
-  <head>
+  <head role="banner">
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <!-- Bootstrap CSS -->
@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="index.css">
     <!-- your CSS can be added here -->
     <title>Remy's Twitter Page</title>
+    <a href="#main" class="skip">Skip to main content</a>
 </head>
   <body>
     <div id="general-wrapper">
@@ -16,7 +17,7 @@
     </div>
     
   </div>
-<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light">
+<nav class="navbar fixed-top navbar-expand-lg navbar-light bg-light" role="navigation">
   <div class="container">
 
       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContents" aria-expanded="false" aria-label="Toggle navigation">
@@ -48,7 +49,7 @@
 
 <div class="container">
   <div id="content-wrapper"> 
-    <div id="left"> 
+    <div id="left" role="UserInfo"> 
       <div class="leftTop">
         <img class="leftTopImage" src = "images/ratatouille-banner.png">
       </div>
@@ -90,7 +91,7 @@
     </div>
 
 
-    <div id="main"> 
+    <div id="main" role="main"> 
 
         <div class="wrapper">
           <!--<div class="tweet">-->
@@ -160,7 +161,7 @@
       
 
 
-    <div id="right">  
+    <div id="right" role="WhoToFollow">  
       <div class="toFollow">Who to follow</div>
       
       <img class="rightIcon1" src="images/linguini.png">

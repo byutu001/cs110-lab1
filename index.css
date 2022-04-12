@@ -40,6 +40,10 @@ body {
   margin: 56px auto;
 }
 
+#skip {
+  display: none;
+}
+
 .tweet {
   /*font-weight: bold;
   display: flex;
